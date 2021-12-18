@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="English">
+<head>
+	<meta charset="utf-8" />
+	<title>FAQ</title>
+	<link rel="stylesheet" type="text/css" href="../Styles/site.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	<meta name="generator" content="BBEdit 14.0" />
+	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script src="../scripts/accordion.js"></script>
+	<script src="../scripts/menu.js"></script>
+	<script src="../scripts/contacterror.js"></script>
+</head>
+<body>
+	<header class="header">
+	<section class="p-menu1">
+	 <nav class="navbar">	 
+	 	<button class="hamburger" type="button">&#9776;
+	 	</button>
+	 	<button class="cross" type="button">&#735;
+	 	</button>
+		<a href="index.html" class="nav-logo">TwoCats&ADog.</a> 
+		 <ul class="nav-menu">
+		  <li class="nav-item"> <a class="nav-link" href="index.html">Home</a> </li>
+		  <li class="nav-item"> <a class="nav-link" href="Ollie&Lynk.html">Ollie & Lynk</a> </li>
+		  <li class="nav-item"> <a class="nav-link" href="Daisy.html">Daisy</a> </li>
+		  <li class="nav-item""> <a class="nav-link" href="Contact.html">Contact</a></li>
+		  <li class="nav-item"> <a class="nav-link" href="FAQ.html">FAQ</a></li>	 
+		  <li class="nav-item"> <a class="nav-link" href="ChrisHutson.html">ChrisHutson</a></li> 
+		   <li class="nav-item">	 
+		 	 <div class="search-container">
+      		  <input type="text" name="search" placeholder="Search..." class="search-input">
+      			  <a href="#" class="search-btn">
+              	    <i class="fas fa-search"></i>      
+      			  </a>
+  			  </div>
+ 		  </li>
+		</ul>	       	
+	 </nav>
+	 </section>
+  </header>	
+  	<div class="mobile-menu">
+  		<ul>
+  		  <div class="search-container-mobile">
+      		  <input type="text" name="search" placeholder="Search..." class="search-input">
+      			  <a href="#" class="search-btn">
+              	    <i class="fas fa-search"></i>      
+      			  </a>
+  			  </div>
+		  <a href="index.html"><li>Home</li></a>
+		  <a href="Ollie&Lynk.html"><li>Ollie & Lynk</li></a>
+		  <a href="Daisy.html"><li>Daisy</li></a>
+		  <a href="Contact.html"><li>Contact</li></a>
+		  <a href="FAQ.html"><li>FAQ</li></a>
+		  <a href="ChrisHutson.html"><li>ChrisHutson</li></a>
+		</ul>
+	</div>
+	 <main>
+	  <article>
+	  <h1>Contact Us</h1>
+	    <section>
+	   		<h2>Leave A Message (My Email Below)</h2>	   		  
+	   		    <div class="contact-container">
+	   			<form id="contact" method="post" action="show.php" novalidate>
+	   			 <div>
+	   				<label for="name">Name</label>
+	   				  <div class="error_message hidden" id="name_error">
+	   				  	*Please include your name
+	   				  </div>
+	   				   <input type="text" id="name" name="name" required/>
+	   			</div>
+	   			<div>
+	   				   <label for="email">Email</label>
+	   				 <div class="error_message hidden" id="email_error">
+	   				   		*Please include an email address
+	   				 </div>
+	   				   	<input type="email" id="email" name="email" required/>
+	   			</div>
+	   			<div>
+	   				   	<label for="message">Message</label>
+	   				 <div class="error_message hidden" id="message_error">
+	   				 	*Please include a comment or message
+	   				 </div>
+	   				 	<textarea id="message" name="message" rows=6 required/></textarea>	   				 
+	   				 	<input id="contact_submit" type="submit" value="Submit">	  	   				  				
+	   			 </div>
+	   		  </form>
+	   		 </div>
+	   	 </section>
+	  	<section class="our-contact">
+	  		<div class="our-info">
+	   		<h2>Email</h2>
+	   		  <p>************@gmail.com</p>
+	   		<h2>Location</h2>
+	   		  <p>000000 Nameof St.</p>
+	   		  <p>City, MD</p>
+	   		 </div>
+	    </section>
+		<footer>
+	 	<p> <a href="index.html">Home</a></p>
+	 	<p>Copyright 2021</p>
+	   </footer>
+	</article>	
+   </main>  				   		   					   	   		
+</body>
+</html>
