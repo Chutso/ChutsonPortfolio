@@ -1214,18 +1214,18 @@ input[type=submit] {
 	}
 	
 	.cross {
-		font-size: 3em;
+		font-size: 14px;
 	}
 	
 	.OL-images li {
 		position: fixed;
-		width: 75px;
-		height: 75px;
+		width: 90px;
+		height: 90px;
 	}
 
 	.OL-images img {
-		width: 80px;
-		height: 80px;
+		width: 90px;
+		height: 90px;
 	}
 	
 	.hexagon-gallery {
@@ -1239,7 +1239,7 @@ input[type=submit] {
 
 	.OL-images li.item2 {
 	 	  top: 140%;
-		  left: 50%;
+		  left: 53%;
 	}
 
 	.OL-images li.item3 {
@@ -1249,12 +1249,12 @@ input[type=submit] {
 
 	.OL-images li.item4 {
  		 top: 140%;
-  		 left: 65%;
+  		 left: 68%;
 	}
 
 	.OL-images li.item5 {
  		 top: 100%;
-  		left: 70%;
+  		left: 75%;
 	}
 	
 	.mobile-menu {
@@ -1263,10 +1263,16 @@ input[type=submit] {
 	
 	.search-container-mobile {  
 		width: 250px;
-		margin-left: 20%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	
 	.panel6 {
+		margin-bottom: 20%;
+		margin-top: 10%;
+	}
+	
+	.our-info {
 		margin-bottom: 15%;
 	}
 }
