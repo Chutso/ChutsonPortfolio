@@ -1260,6 +1260,10 @@ input[type=submit] {
 	.mobile-menu {
 		font-size: 16px;
 	}
+	
+	.search-container-mobile {  
+		width: 250px;
+	}
 }
 
 
