@@ -1200,6 +1200,10 @@ input[type=submit] {
 		max-width: 300px;
 }
 
+	.slideshowimg-1, .slideshowimg-2, .slideshowimg-3, .slideshowimg-4 {
+		width: 300px;
+	}
+	
 }
 
 
