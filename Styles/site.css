@@ -1205,7 +1205,7 @@ input[type=submit] {
 	}
 	
 	.ollielynk img {
-		width: 200px;
+		width: 225px;
 		height: 200px;
 	}
 	
@@ -1225,7 +1225,32 @@ input[type=submit] {
 	}
 	
 	.hexagon-gallery {
-		margin: auto;
+		margin-left: 10%;
+	}
+	
+	.OL-images li.item1 {
+ 		 top: 100%;
+ 		 left: 40%;
+	}
+
+	.OL-images li.item2 {
+	 	  top: 140%;
+		  left: 45%;
+	}
+
+	.OL-images li.item3 {
+ 		 top: 100%;
+ 		 left: 60%;
+	}
+
+	.OL-images li.item4 {
+ 		 top: 140%;
+  		 left: 65%;
+	}
+
+	.OL-images li.item5 {
+ 		 top: 100%;
+  		left: 70%;
 	}
 	
 }
