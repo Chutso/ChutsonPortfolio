@@ -1205,27 +1205,27 @@ input[type=submit] {
 	}
 	
 	.ollielynk img {
-		width: 225px;
+		width: 250px;
 		height: 200px;
 	}
 	
 	.hamburger {
-		font-size: 2em;
+		font-size: 3em;
 	}
 	
 	.OL-images li {
 		position: fixed;
-		width: 100px;
-		height: 100px;
+		width: 75px;
+		height: 75px;
 	}
 
 	.OL-images img {
-		width: 100px;
-		height: 100px;
+		width: 75px;
+		height: 75px;
 	}
 	
 	.hexagon-gallery {
-		margin-left: 10%;
+		margin-left: 15%;
 	}
 	
 	.OL-images li.item1 {
