@@ -1213,6 +1213,10 @@ input[type=submit] {
 		font-size: 3em;
 	}
 	
+	.cross {
+		font-size: 3em;
+	}
+	
 	.OL-images li {
 		position: fixed;
 		width: 75px;
