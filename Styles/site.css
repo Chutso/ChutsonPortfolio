@@ -1213,6 +1213,21 @@ input[type=submit] {
 		font-size: 2em;
 	}
 	
+	.OL-images li {
+		position: fixed;
+		width: 100px;
+		height: 100px;
+	}
+
+	.OL-images img {
+		width: 100px;
+		height: 100px;
+	}
+	
+	.hexagon-gallery {
+		margin: auto;
+	}
+	
 }
 
 
