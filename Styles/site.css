@@ -1196,10 +1196,10 @@ input[type=submit] {
 }
 
 @media only screen and (max-width: 480px) {
-	.ollielynk img {
-		width: 300px;
-		height: 200px;
-	}
+	.slideshow-container {
+		max-width: 300px;
+}
+
 }
 
 
