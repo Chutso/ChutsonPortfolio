@@ -1208,6 +1208,11 @@ input[type=submit] {
 		width: 300px;
 		height: 200px;
 	}
+	
+	.hamburger {
+		font-size: 2em;
+	}
+	
 }
 
 
