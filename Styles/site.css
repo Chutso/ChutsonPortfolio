@@ -32,6 +32,7 @@ a {
 
 .header{
     border-bottom: 1px solid #E2E8F0;
+    padding-bottom: 10%;
 }
 
 /* navigation bar */
@@ -77,13 +78,10 @@ a {
 .nav-logo {
     font-size: 3.5rem;
     font-weight: 500;
-    color: #482ff7;
+    color: #E600AD;
     top: 0;
     left: 0;
     font-family: 'Shizuru', cursive;
-    margin-bottom: 2.5%;
-    margin-top: 0;
-    padding-bottom: 5%;
 }
 
 /* FAQ tiles */
@@ -1279,8 +1277,9 @@ input[type=submit] {
 		font-size: 32px;
 	}
 	
-	
-	
+	.nav-logo {
+		text-align: center;
+	}	
 	
 }
 
