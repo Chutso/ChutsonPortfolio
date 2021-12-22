@@ -928,7 +928,7 @@ width:100%;
 background:#f1f1f1;  
 position:absolute; 
 text-align:center; 
-font-size:12px;
+font-size:18px;
 }
 
 .mobile-menu ul {
@@ -1288,6 +1288,20 @@ input[type=submit] {
 	html {
 		margin: 0;
 	}
+	
+	body {
+		margin: 0;
+	}
+	
+	main {
+		margin: 0;
+	}
+	
+	.OL-images li:hover {
+		transform: scale(2.5);
+		transform: translate(50, 50);
+	}
+
 	
 }
 
