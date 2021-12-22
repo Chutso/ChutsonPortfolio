@@ -75,10 +75,11 @@ a {
 }
 
 .nav-logo {
-    font-size: 2.1rem;
+    font-size: 3.5rem;
     font-weight: 500;
     color: #482ff7;
-    vertical-align: middle;
+    top: 0;
+    left: 0;
     font-family: 'Shizuru', cursive;
 }
 
@@ -1214,27 +1215,27 @@ input[type=submit] {
 	
 	.OL-images li.item1 {
  		 top: 100%;
- 		 left: 40%;
+ 		 left: 38%;
 	}
 
 	.OL-images li.item2 {
-	 	  top: 140%;
-		  left: 49%;
+	 	  top: 142%;
+		  left: 48%;
 	}
 
 	.OL-images li.item3 {
  		 top: 100%;
- 		 left: 60%;
+ 		 left: 58%;
 	}
 
 	.OL-images li.item4 {
- 		 top: 140%;
-  		 left: 70%;
+ 		 top: 142%;
+  		 left: 68%;
 	}
 
 	.OL-images li.item5 {
  		 top: 100%;
-  		left: 80%;
+  		left: 78%;
 	}
 	
 	.mobile-menu {
@@ -1271,8 +1272,7 @@ input[type=submit] {
 	}
 	
 	.contact-container {
-		margin-left: 0;
-		margin-right: 0;
+		width: 100%;
 	}
 }
 
