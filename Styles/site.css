@@ -83,6 +83,7 @@ a {
     font-family: 'Shizuru', cursive;
     margin-bottom: 2.5%;
     margin-top: 0;
+    padding-bottom: 5%;
 }
 
 /* FAQ tiles */
@@ -1278,10 +1279,6 @@ input[type=submit] {
 		font-size: 32px;
 	}
 	
-	body, html {
-		margin: 0px;
-		height: 100%;
-	}
 	
 	
 	
