@@ -78,6 +78,9 @@ a {
     font-size: 2.1rem;
     font-weight: 500;
     color: #482ff7;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Shizuru', cursive;
 }
 
 /* FAQ tiles */
@@ -1127,8 +1130,8 @@ input[type=submit] {
     justify-content: start;
     margin-bottom: 1%;
     margin-top: 2%;
-    margin-left: 33%;
-    margin-right: 30%;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 200px;
     position: relative;
     text-align: center;
@@ -1206,17 +1209,18 @@ input[type=submit] {
 	}
 	
 	.hexagon-gallery {
-		margin-left: 15%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	
 	.OL-images li.item1 {
  		 top: 100%;
- 		 left: 42%;
+ 		 left: 41%;
 	}
 
 	.OL-images li.item2 {
 	 	  top: 140%;
-		  left: 53%;
+		  left: 51%;
 	}
 
 	.OL-images li.item3 {
@@ -1226,12 +1230,12 @@ input[type=submit] {
 
 	.OL-images li.item4 {
  		 top: 140%;
-  		 left: 68%;
+  		 left: 72%;
 	}
 
 	.OL-images li.item5 {
  		 top: 100%;
-  		left: 75%;
+  		left: 78%;
 	}
 	
 	.mobile-menu {
@@ -1257,6 +1261,19 @@ input[type=submit] {
 		text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
              0px 8px 13px rgba(0,0,0,0.1),
              0px 18px 23px rgba(0,0,0,0.1);
+	}
+	
+	h1 {
+		font-size: 40px;
+	}
+	
+	h2 {
+		font-size: 32px;
+	}
+	
+	.contact-container {
+		margin-left: 0;
+		margin-right: 0;
 	}
 }
 
