@@ -1283,6 +1283,7 @@ input[type=submit] {
 	
 	.header {
 		padding-bottom: 5%;
+		height: 100%;
 	}
 	
 	html {
