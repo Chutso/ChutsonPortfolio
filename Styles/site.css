@@ -1277,10 +1277,14 @@ input[type=submit] {
 		font-size: 32px;
 	}
 	
-	.nav-logo a {
+	.nav-logo {
 		justify-content: center;
-		margin-bottom: 2.5%;
+		margin-bottom: 5%;
 	}	
+	
+	header {
+		padding-bottom: 5%;
+	}
 	
 }
 
