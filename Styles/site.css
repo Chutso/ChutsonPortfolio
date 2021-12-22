@@ -1277,8 +1277,9 @@ input[type=submit] {
 		font-size: 32px;
 	}
 	
-	.nav-logo {
-		text-align: center;
+	.nav-logo a {
+		justify-content: center;
+		margin-bottom: 2.5%;
 	}	
 	
 }
