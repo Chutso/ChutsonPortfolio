@@ -885,7 +885,7 @@ footer a:hover {
 	height:100%; 
 	line-height:60px;
 	border-bottom:1px solid #dddddd;	
-	padding-bottom: 5%;
+	padding-bottom: 3%;
 }
 
 	h2 {
@@ -1194,9 +1194,11 @@ input[type=submit] {
 	}	
 	
 	#contact_submit {
-		margin-left: 0;
-		margin-right: auto;
-		
+		margin-right: 0;
+	}
+	
+	input[type=submit] { 
+		margin-right: 0;
 	}
 
 @media only screen and (max-width: 480px) {
@@ -1324,14 +1326,25 @@ input[type=submit] {
 	
 	.OL-images li.item5:hover {
 		left: 55%;
-		transform: rotate(360);
+		transform: rotate(360deg);
 		transform: scale(2.5);
 	}
 	
 	.OL-images li.item1:hover {
 		left: 55%;
-		transform: rotate(360);
+		transform: rotate(360deg);
 		transform: scale(2.5);
+	}
+	
+	#contact_submit {
+		margin-right: auto;
+		margin-left: auto;
+	}
+	
+	input[type=submit] {
+		border-radius: 3px;
+		margin-right: auto;
+		margin-left: auto;
 	}
 
 	
