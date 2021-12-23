@@ -878,7 +878,7 @@ footer a:hover {
 
    .header{
 	width:100%;  
-	height:60px; 
+	height:100%; 
 	line-height:60px;
 	border-bottom:1px solid #dddddd;	
 	padding-bottom: 5%;
@@ -1018,7 +1018,7 @@ img {
 
 
 .ollielynk img {
-	width: 400px;
+	width: 425px;
 	height: 300px;	
 	margin-left: 10%;
 	margin-top: 6%;
@@ -1190,8 +1190,8 @@ input[type=submit] {
 	}	
 	
 	#contact_submit {
-		margin-right: 0;
-		margin-left: auto;
+		margin-left: 0;
+		margin-right: auto;
 		
 	}
 
@@ -1205,7 +1205,7 @@ input[type=submit] {
 	}
 	
 	.ollielynk img {
-		width: 240px;
+		width: 260px;
 		height: 200px;
 	}
 	
@@ -1302,7 +1302,8 @@ input[type=submit] {
 	}
 	
 	html {
-		margin: 0;
+		margin-left: 2.5%;
+		margin-right: 2.5%;
 	}
 	
 	body {
@@ -1320,11 +1321,13 @@ input[type=submit] {
 	.OL-images li.item5:hover {
 		left: 55%;
 		transform: rotate(360);
+		transform: scale(2.5);
 	}
 	
 	.OL-images li.item1:hover {
 		left: 55%;
-		transform: rotate(1turn);
+		transform: rotate(360);
+		transform: scale(2.5);
 	}
 
 	
