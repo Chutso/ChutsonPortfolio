@@ -115,6 +115,10 @@ a {
   font-size: 24px;
 }
 
+.panel6 {
+	margin-bottom: 5%;
+}
+
 .active, .accordion:hover {
   background-color: #ccc; 
 }
