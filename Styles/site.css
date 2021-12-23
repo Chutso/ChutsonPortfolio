@@ -881,6 +881,7 @@ footer a:hover {
 	height:60px; 
 	line-height:60px;
 	border-bottom:1px solid #dddddd;	
+	padding-bottom: 5%;
 }
 
 	h2 {
@@ -912,7 +913,7 @@ footer a:hover {
   padding:7px 15px 0px 15px;
   color:#0F0F0F;
   border:0;
-  font-size:3em;
+  font-size: 40px;
   line-height:65px;
   font-weight:bold;
   cursor:pointer;
@@ -1179,6 +1180,20 @@ input[type=submit] {
 .mobile-menu {
 		font-size: 16px;
 	}
+	
+	.panel6 {
+		margin-bottom: 15%;
+	}
+	
+	.item5 {
+		margin-bottom: 10%;
+	}	
+	
+	#contact_submit {
+		margin-right: 0;
+		margin-left: auto;
+		
+	}
 
 @media only screen and (max-width: 480px) {
 	.slideshow-container {
@@ -1300,7 +1315,16 @@ input[type=submit] {
 	
 	.OL-images li:hover {
 		transform: scale(2.5);
-		transform: translate(50, 50);
+	}
+	
+	.OL-images li.item5:hover {
+		left: 55%;
+		transform: rotate(360);
+	}
+	
+	.OL-images li.item1:hover {
+		left: 55%;
+		transform: rotate(1turn);
 	}
 
 	
