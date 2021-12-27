@@ -379,7 +379,7 @@ input[type=submit]:hover {
 	width: 800px;
 	height: 300px;
 	object-fit: cover;
-	object-position: 15% 25%;
+	object-position: 10% 25%;
 }
 
 .slideshowimg-3 {
@@ -1194,6 +1194,8 @@ input[type=submit] {
 	}	
 	
 	#contact_submit {
+		display: block;
+		font-size: 25px;
 		margin-right: 0;
 	}
 
@@ -1333,9 +1335,10 @@ input[type=submit] {
 	}
 	
 	#contact_submit {
-		position: fixed;
-		left: 50%;
+		margin-right: auto;
+		font-size: 22px;
 	}
+	
 
 	
 }
