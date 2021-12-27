@@ -1196,7 +1196,8 @@ input[type=submit] {
 	#contact_submit {
 		display: block;
 		font-size: 25px;
-		margin-right: 0;
+		margin-right: auto;
+		margin-left: auto;
 	}
 
 @media only screen and (max-width: 480px) {
