@@ -1194,11 +1194,8 @@ input[type=submit] {
 	}	
 	
 	#contact_submit {
-		margin-right: 0;
-	}
-	
-	input[type=submit] { 
-		margin-right: 0;
+		margin-right: auto;
+		margin-left: auto;
 	}
 
 @media only screen and (max-width: 480px) {
@@ -1337,14 +1334,8 @@ input[type=submit] {
 	}
 	
 	#contact_submit {
-		margin-right: auto;
 		margin-left: auto;
-	}
-	
-	input[type=submit] {
-		border-radius: 3px;
 		margin-right: auto;
-		margin-left: auto;
 	}
 
 	
