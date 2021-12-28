@@ -1201,6 +1201,9 @@ input[type=submit] {
 		margin-left: auto;
 		border-radius: 0;
 	}
+	input[type=submit] {
+		border-radius: 0;
+	}
 
 @media only screen and (max-width: 480px) {
 	.slideshow-container {
@@ -1344,6 +1347,9 @@ input[type=submit] {
 		border-radius: 0;
 	}
 	
+	input[type=submit] {
+		border-radius: 0;
+	}
 
 	
 }
