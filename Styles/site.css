@@ -1104,6 +1104,7 @@ img {
 input[type=submit] {
 	margin-left: 23%;
 	padding: 8px 80px;
+	border-radius: 0;
 }
 
 .error_message {
@@ -1196,7 +1197,8 @@ input[type=submit] {
 	#contact_submit {
 		display: block;
 		font-size: 25px;
-		margin-right: 0;
+		margin-right: auto;
+		margin-left: auto;
 		border-radius: 0;
 	}
 
@@ -1337,6 +1339,7 @@ input[type=submit] {
 	
 	#contact_submit {
 		margin-right: auto;
+		margin-left: auto;
 		font-size: 22px;
 		border-radius: 0;
 	}
